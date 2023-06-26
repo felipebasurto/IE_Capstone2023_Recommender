@@ -14,6 +14,7 @@ MIND contains about 160k English news articles and more than 15 million impressi
 
 ----------------
 
+| Mind - demo 
 | Model   | group_auc | mean_mrr | ndcg@5 | ndcg@10 |
 |----------|----------|----------|--------|---------|
 | Popularity    |   -  |   -  | 0.2766 |  0.333 |
@@ -22,3 +23,8 @@ MIND contains about 160k English news articles and more than 15 million impressi
 | NMRS    |   0.6169  |   0.2729  | 0.2948 |  0.3659 |
 | NAML    |   0.6187  |   0.2848  | 0.3098 |  0.3736 |
 | LSTUR    |   0.6443  |   0.2961  | 0.327 |  0.3897 |
+
+| Mind - small
+| Model   | group_auc | mean_mrr | ndcg@5 | ndcg@10 |
+|----------|----------|----------|--------|---------|
+| LSTUR    |   0.6622  |   0.31  | 0.31 |  0.4066 |
