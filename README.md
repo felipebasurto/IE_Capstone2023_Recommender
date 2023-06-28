@@ -27,4 +27,10 @@ MIND contains about 160k English news articles and more than 15 million impressi
 | Mind - small
 | Model   | group_auc | mean_mrr | ndcg@5 | ndcg@10 |
 |----------|----------|----------|--------|---------|
+| NRMS    |   0.6175  |   0.2723  | 0.2943 |  0.3645 |
 | LSTUR    |   0.6622  |   0.31  | 0.3435 |  0.4066 |
+
+| Mind - large
+| Model   | group_auc | mean_mrr | ndcg@5 | ndcg@10 |
+|----------|----------|----------|--------|---------|
+| LSTUR    |   0.6806  |   0.3295  | 0.3629 |  0.427 |
