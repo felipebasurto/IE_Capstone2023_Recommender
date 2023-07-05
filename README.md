@@ -26,24 +26,26 @@ MIND contains about 160k English news articles and more than 15 million impressi
 
 
 | Mind - small |
-| Model | group_auc | mean_mrr | ndcg@5 | ndcg@10 | Precision |
-|----------|----------|----------|--------|---------|-----------|
-| Random    |   -  |   -  | 0.2243 |  0.2870 | 0.069 |
-| Popularity    |   -  |   -  | 0.2819 |  0.338 | 0.076 |
-| NPA	| - |	-	| 0.3288 |	0.3926 |	0.1314
-| NAML    |   0.6518  |   0.3058  | 0.3408 |  0.4038 | 0.1326 |
-| NAML + NPA    |   -  |   -  | 0.3414 |  0.4042 | 0.1331 |
-| LSTUR    |   0.6592  |   0.31  | 0.3474 |  0.4090 | 0.1395 |
-| LSTUR + NPA |   -  |   -  | 0.3486 |  0.4103 | 0.1404 |
-| NRMS    |   0.6568  |   0.3156  | 0.3451 |  0.4099 | 0.1434 |
-| NRMS + NPA    |   -  |   -  | 0.3456 |  0.4101 | 0.1430 |
-| NAML + LSTUR    |   -  |   -  | 0.3496 |  0.4116 | 0.1425 |
-| NAML + LSTUR + NPA    |   -  |   -  | 0.3495 |  0.4116 | 0.1425 |
-| NAML + NRMS    |   -  |   -  | 0.3483 |  0.4122 | 0.1396 |
-| NAML + NRMS + NPA    |   -  |   -  | 0.3482 |  0.4121 | 0.1398 |
-| NRMS + LSTUR    |   -  |   -  | 0.3505 |  0.4140 | 0.1452 |
-| NRMS + LSTUR + NPA    |   -  |   -  | 0.3505 |  0.4141 | 0.1454 |
-| LSTUR + NRMS + NAML |   -  |   -  | 0.3512 | 0.4142 | 0.1445 |
+| Model | ndcg@5 | ndcg@10 | Precision |
+|----------|--------|---------|-----------|
+| Random    | 0.2243 |  0.2870 | 0.069 |
+| Popularity    | 0.2819 |  0.338 | 0.076 |
+| NPA	| 0.3288 |	0.3926 |	0.1314 |
+| NAML    | 0.3408 |  0.4038 | 0.1326 |
+| NAML + NPA    | 0.3414 |  0.4042 | 0.1331 |
+| LSTUR    | 0.3474 |  0.4090 | 0.1395 |
+| LSTUR + NPA | 0.3486 |  0.4103 | 0.1404 |
+| NRMS    | 0.3451 |  0.4099 | 0.1434 |
+| NRMS + NPA    | 0.3456 |  0.4101 | 0.1430 |
+| NAML + LSTUR    | 0.3496 |  0.4116 | 0.1425 |
+| NAML + LSTUR + NPA    | 0.3495 |  0.4116 | 0.1425 |
+| NAML + NRMS    | 0.3483 |  0.4122 | 0.1396 |
+| NAML + NRMS + NPA    | 0.3482 |  0.4121 | 0.1398 |
+| NRMS + LSTUR    | 0.3505 |  0.4140 | 0.1452 |
+| NRMS + LSTUR + NPA    | 0.3505 |  0.4141 | 0.1454 |
+| LSTUR + NRMS + NAML | 0.3512 | 0.4142 | 0.1445 |
+
+This version of the table includes only the metrics `ndcg@5`, `ndcg@10`, and `Precision` for each model.
 
 
 | Mind - large
