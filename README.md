@@ -43,7 +43,7 @@ MIND contains about 160k English news articles and more than 15 million impressi
 | NRMS + NAML + NPA    | 0.3482 |  0.4121 | 0.1398 |
 | NRMS + LSTUR    | 0.3505 |  0.4140 | 0.1452 |
 | NRMS + LSTUR + NPA    | 0.3505 |  0.4141 | 0.1454 |
-| NRMS + LSTUR + NAML | 0.3512 | 0.4142 | 0.1445 |
+| NRMS + NAML + LSTUR | 0.3512 | 0.4142 | 0.1445 |
 
 This version of the table includes only the metrics `ndcg@5`, `ndcg@10`, and `Precision` for each model.
 
