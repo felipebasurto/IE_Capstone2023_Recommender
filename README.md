@@ -24,6 +24,7 @@ MIND contains about 160k English news articles and more than 15 million impressi
 | NAML    |   0.6187  |   0.2848  | 0.3098 |  0.3736 |
 | LSTUR    |   0.6443  |   0.2961  | 0.327 |  0.3897 |
 
+----------------------------
 
 | Mind - small |
 | Model | ndcg@5 | ndcg@10 | Precision |
@@ -45,8 +46,7 @@ MIND contains about 160k English news articles and more than 15 million impressi
 | NRMS + LSTUR + NPA    | 0.3505 |  0.4141 | 0.1454 |
 | NRMS + NAML + LSTUR | 0.3512 | 0.4142 | 0.1445 |
 
-This version of the table includes only the metrics `ndcg@5`, `ndcg@10`, and `Precision` for each model.
-
+-------------------------
 
 | Mind - large
 | Model   | group_auc | mean_mrr | ndcg@5 | ndcg@10 |
